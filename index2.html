@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+
+@font-face {
+font-family:"Iranyekan" ;
+src: url("./font2/Qs_Iranyekan\ bold.ttf");
+}
+
+
+    body {
+        font-family: 'Iranyekan', Arial, sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+
+ul a {
+
+ padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.letter {
+
+   
+  font-family: 'Iranyekan', Arial, sans-serif;
+   padding-left: 20px;
+
+}
+
+.span1 {
+
+    color: rgba(58,58,58,0.7);
+    font-weight: 500;
+    padding-left: 0px;
+    font-size: 16px ;
+
+    position:relative;
+    top: -15px; 
+
+}
+
+  .phone-icon {
+   font-family: 'Iranyekan', Arial, sans-serif;
+   padding-left:15px;
+   position: relative;
+   top: -10px;
+
+}
+
+.span2 {
+
+    padding-left:8px ;
+    position: relative ;
+    top: -15px;
+    color: rgba(58,58,58,0.7);
+    font-weight: 500;
+    
+}
+
+.headerlink {
+display: flex;
+justify-content:space-between ;
+}
+.navbar-link {
+display: none;
+}
+.left-link {
+    position: relative;
+    left: 83px;
+    top: -5px;
+}
+.right-link {
+margin-top: 13px;
+margin-right: 117px;
+}
+.my-video {
+display:flex;
+justify-content:flex-start ;
+margin-top:0px ;
+position: relative;
+width: 100%;
+margin: 0px 0px 0px 0px ;
+top:-60px;
+border: none;
+outline: none;
+overflow:hidden;
+}
+.header2 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #79A342;
+  direction: rtl;
+  text-align: center;
+  max-width:962px ;
+  height: 70px;
+  position:relative ;
+  top: -28px;
+  margin-right: 600px;
+  z-index: 1;
+}
+.header2 a {
+z-index:1 ;
+padding-left: 30px;
+font-size: 16px;
+color: #FFFFFFD9;
+line-height:70px ;
+position: relative;
+left: -34px;
+}
+.header2 ul {
+z-index:1 ;
+align-self: flex-start;
+font-size: 16px;
+color: #FFFFFFD9;
+line-height:70px ;
+position: relative;
+background-color:#79A342 ;
+top: -17px;
+width: 962px;
+}
+.box  {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr 1fr ;
+     direction: rtl;
+     background-color: #ffffff;
+     border-radius: 20px;
+     max-width:1480px ;
+     height:350.45px ;
+     position: relative;
+     bottom:385px ;
+     padding-top: 30px;
+     margin-top: -85px;
+     margin-left: 150px;   
+     margin-right: 140px;
+}
+
+.box img {
+
+  padding-right: 55px;    
+  position: relative;
+  overflow: hidden;
+
+}
+
+.img1 {
+   
+   height: 100px;
+   overflow: hidden;;
+}
+
+.spans {
+margin-left: 27px;  
+padding-right: 30px;
+text-align: center;
+position: relative;
+top: 28px;
+}
+
+.span3 {
+color: #aaaaaa;
+word-break: normal;
+font-size:16px ;
+}
+
+.span4 {
+color: #aaaaaa;
+word-break: normal;
+font-size:16px ;
+}
+
+.button {
+  text-align: center;
+  position: relative; 
+  margin-top:30px ;
+}
+
+.tag1  {
+background-color: #79A342;
+color: #ffffff;
+padding: 8px 32px 8px 0px ;
+padding-left: 32px;
+border-radius: 30px;
+}
+
+.tag2 {
+color: #79A342;
+font-size: 15px;
+padding: 8px 16px 8px 0px ;
+padding-left: 0px;
+border-radius: 30px;
+border:1px solid #79A342 ;
+
+
+}
+
+.center-images {
+position: relative;
+bottom:350px ;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+
+}
+
+.span6{
+
+border-radius: 30px ;
+
+padding: 8px 12px 8px 5px ;
+padding-left: 32px;
+
+
+}
+
+.img-background {
+display: flex;
+justify-content: center;  
+position: relative;
+bottom: 300px;
+overflow: hidden;
+}
+
+.cz_shape_1 {
+  z-index: 1;
+  background-color: #79a342;
+  width: 25px;
+  height: 17px;
+  transform: skew(-45deg) rotate(45deg) translate(-50%);
+}
+
+.te {
+  display:flex ;
+  justify-content: center;
+}
+
+.content-background {
+  position: relative;
+  bottom: 950px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr ;
+}
+
+.form {
+position: relative;
+bottom: 1200px;
+right:30px ;
+direction: rtl;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 1fr;
+margin-left: 20px;
+margin-right:20px ;
+
+}
+
+.form1 {
+ width: 340px ; 
+ height: 310px;
+ background-color:#79A342;
+ text-align: center;
+
+}
+
+.span7 {
+ 
+  position: relative;
+  top: 50px;
+
+}
+
+
+.margin-images {
+
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: white;
+  width: 1100px;
+  align-items: center;
+  overflow: hidden;
+  height: 308px;
+ 
+  border: 1px solid #FFFFFFD9;
+  filter : drop-shadow(1px 1px 1px  rgb(202, 197, 197)) ;
+    
+}
+
+.mimages {
+
+padding-right: 40px;
+overflow: hidden;
+
+}
+
+.content-group {
+  
+direction: rtl;
+position: relative;
+right: 100px;
+top: -1070px;
+margin-left: 100px;
+display: flex;
+justify-content:center;
+
+
+}
+
+.content-form {
+ 
+ width: 1900px;
+ min-height: 50px;
+ line-height:175px ;
+ padding-right: 55px;
+ background-color: #1c1c1c;
+ font-size: 44px;
+ color:  #ffffff;
+ 
+}
+
+.content-img {
+  height: 100%;
+  width:296px ;
+  margin-left: 30px;
+  
+}
+
+.footer1 {
+background-color: #2f2f2f;
+max-width: 1520px;
+height: 600px;
+position: relative;
+margin-top: -860px;
+z-index: 0;
+overflow: hidden;
+}
+
+.small-logo {
+
+position: relative;
+left: 350px;
+
+}
+
+.footer1-logo {
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows: 1fr 1fr 1fr;
+z-index: 1;
+max-width: 579.4px;
+height: 793.767px ;
+background-color: #000000;
+overflow:hidden;
+position: relative;
+float: right;
+margin-right: 100px;
+margin-top:-720px  ;
+}
+
+.footer1-logo1{
+
+z-index: 1;
+
+position: relative;
+top: 65px;
+left: 70px;
+}
+
+
+.footer1-logo2 {
+  position: relative;
+  right: 160px;
+  top: 64px;
+  padding: 100px 60px 450px ;
+  margin: -280px -15px -230px 100px;
+  border-radius: 5px;  
+}
+
+
+.footer-span {
+  color: rgba(255,255,255,0.75);
+  font-size: 16px ;
+  width: 480px ;
+  text-align: right;
+  position: relative;
+  left: 40px;
+  line-height: 40px;
+  
+}
+
+.footer-span1 {
+color:#ffffff;
+font-size: 18px;
+z-index: 1;
+position: relative;
+left: 325px;
+bottom: 250px;
+}
+
+.header_line_3 {
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: rgba(58,58,58,0.2);
+  width: 1px;
+  transform: rotate(20deg);
+}
+
+.footer2 {
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.span8 {
+font-size: 13.5px;
+margin-left: 20px;
+margin-top: 25px;
+color:rgba(58,58,58,0.85);
+}
+
+.video-text {
+  position: relative; 
+  bottom: 630px;
+  overflow: hidden;
+}
+
+.h1-1 {
+  font-size: 80px;
+  white-space: nowrap; 
+  text-align: center; 
+  line-height: 90px; 
+  letter-spacing: -4px; 
+  font-weight: 800px;
+}
+
+.h1-2 {
+
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (max-width:1117px) {
+
+  .header2 {
+    width: 70%;
+  }
+ .left-link {
+  position: relative;
+  left: -30px;
+ }
+ .right-link {
+  position: relative;
+  right: -80px;
+ }
+ .button {
+  margin-top: 60px;
+ }
+ .spans {
+  width: 110%;
+  margin-right: -50px;
+ }
+ .form {
+  margin-right: -30px;
+ }
+ .content-group {
+  margin-right: -60px;
+ }
+ .content-form{
+  line-height: 100px;
+ }
+ .footer2 {
+ width: 100%;
+ position: relative;
+ right: 100px;
+ overflow: hidden;
+ }
+}
+
+ @media screen and (max-width:892px) {
+  .left-link {
+  display: none;
+  overflow: hidden;
+   }
+   .header2 {
+    display: none;
+   }
+   .right-link {
+   height: 130px;
+   display: flex;
+   width: 70%;
+   margin-left: -200px;
+   justify-content: flex-end ;
+   }
+   .navbar-link {
+    cursor: pointer;
+    display:flex ;
+    justify-content: flex-start;
+    margin-left: -212px;
+    margin-top: 33px;
+    height: 20px;
+   }
+}
+@media screen and (max-width:790px) {
+
+.spans {
+  width: 150%;
+  margin-right: -130px;
+}
+.center-images {
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.p-group {
+margin-top: -50px;
+}
+.content-group {
+ position: relative;
+ top: -1400px;
+ right:70px ;
+ flex-direction: column;
+}
+.content-form {
+ max-width: 70%;
+ text-align: center;
+ justify-content: center;
+ min-height: 200px;
+ padding-left: 60px;
+ margin-left: 20px;
+} 
+
+
+
+
+.footer1-logo {
+  margin-right: 0px;
+}
+
+.h1-1 {
+  font-size: 40px;
+  line-height: 50px; 
+}
+
+.h1-2 {
+ line-height: 70px;
+ font-size: 14.75px;
+}
+
+.box {
+
+ margin-top: 20px;
+ 
+}
+
+.te {
+  margin-top: -40px;
+}
+
+.form {
+width: 100%;
+grid-template-columns: 1fr ;
+grid-template-rows: 1fr 1fr 1fr;
+
+}
+.margin-i {
+
+width: 160px;
+
+}
+
+.margin-images {
+  width: 80%;
+  
+  margin-top: -50px;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+}
+
+.footer-span {
+
+width: 300px;
+margin-left: 200px;
+}
+.footer1 {
+margin-top: -1200px;
+}
+}
+@media screen  and (max-width:541px){
+  
+.img1 {
+  width: 120%;
+  margin-right: 15px;
+}
+.spans {
+  width: 180%;
+
+
+}
+}
+
+@media screen and (max-width:501px) {
+  .h1-2 {
+  font-size: 12px; 
+  }
+  .spans {
+    margin-right: -140px;
+    width: 210%;
+  }
+  .center-images {
+    margin-top: 100px;
+  }
+  .button{
+    margin-top: 80px;
+    width: 110%;
+    margin-right:-15px ;
+  }
+  .center-images {
+   margin-left: 20px;
+  }
+  .p-group {
+
+   margin-top: -110px;
+
+  }
+  .content-group {
+   margin-left: 140px;
+  }
+  .footer1-logo1 {
+   margin-left: 80px;
+  }
+}
+
+@media screen and (max-width:416px) {
+    .box{
+   width: 92%;  
+   position: relative;
+   right: 132px;
+}
+    .spans {
+    width:80% ;
+    margin-right:6px ;
+    }
+    .r-link {
+
+       width: 180px;
+    }
+    .center-images {
+    margin-right: 20px;
+    }
+
+    .p-group {
+    
+    margin-top: -120px;
+
+    }
+
+    .last-p {
+     line-height: 80px;
+    }
+
+    .form {
+
+      margin-left: 30px;
+    }
+
+    .form1 {
+      width: 100%;
+    }
+
+   .margin-images {
+    width: 100%;
+   }
+
+   .content-group  {
+     width: 102.5%;
+     margin-left: 59px;
+   }
+   .content-img {
+    width: 100%;
+   }
+   
+
+}
+
+@media screen and (max-width:376px) {
+.p-group {
+margin-bottom: -65px;
+}
+.margin-i {
+  width: 130px;
+}
+.form {
+  margin-left: 30px;
+}
+.form1 {
+
+  margin-right: -1px;
+}
+.content-group {
+margin-left: 65px;
+}
+.footer1-logo {
+  margin-right: -2px;
+}
+.footer1-logo1 {
+  margin-left: 170px;
+}
+.h1-2 {
+  font-size: 11px;
+}
+}
+
+@media screen and (max-width:281px) {
+
+.my-video {
+  width: 128.25%;
+}
+
+.video-text {
+  width: 115%;
+  margin-left: 17px;
+}
+.box {
+  width: 117%;
+  margin-left: 149px;
+}
+.button {
+  height: 20px;  
+}
+.center-images {
+  width: 112%;
+}
+
+.img-background {
+
+  width: 128.5%;
+}
+.p-group {
+  width: 125%;
+  margin-left: 0px
+}
+.te {
+  margin-left: 90px;
+}
+.third-p {
+  margin-left: 7px;
+}
+.tag1 {
+  margin-left: 30px;
+}
+.form {
+  width: 127%;
+}
+.content-group {
+  width: 130%;
+}
+.footer1-logo {
+  
+ width: 200%;
+ position: relative;
+ left:75px;
+}
+
+}
+
+</style>
+
+<header>
+
+<div class="headerlink">
+
+  <div class="navbar-link">
+    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -53 384 384" width="512px"><g><path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" data-original="#000000" class="active-path" data-old_color="#000000" fill="#4caf50"/><path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" data-original="#000000" class="active-path" data-old_color="#000000" fill="#4caf50"/><path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" data-original="#000000" class="active-path" data-old_color="#000000" fill="#4caf50"/></g> </svg></div>
+    
+<div class="left-link"> 
+
+  <ul>
+
+  <a href="" > <img src="./images/logo2.png" alt="" width="22px" style="padding-bottom:15px ;"> </a>
+  <a href=""> <img src="./images/images.png" alt="" width="20px" style="padding-bottom:14px ;"></a>
+  <a href=""> <img src="./images/instagram2b.png" alt="" width="18px" style="padding-bottom:13px; ">  </a> 
+  <a href=""><img src="./images/letterb.png" alt="" width="38px" class="letter"> <span class="span1" >  Info@GreenWeb.ir </span> </a> 
+  <a href=""> <img src="./images/pixlr-bg-result.png" alt="" width="28px" class="phone-icon "> <span class="span2">   021- 88853913 </span> </a>
+
+  </ul>  
+ </div>
+
+
+ <div class="right-link">
+ <a href="https://greenweb.ir/" title="  نوآوری در فناوری، هوشمندی در کسب و کار"><img src="https://greenweb.ir/wp-content/uploads/2022/06/GWlogo.png" class="r-link" data-src="" alt="هلدینگ دانش بنیان گرین وب"   width="200" height="53"></a>  </div>
+ </div>
+
+    <div class="header2">
+    <ul>
+    <a href=""> صفحه اصلی </a>
+    <a href=""> درباره ما </a>
+    <a href=""> بلاگ </a>
+    <a href=""> فرصت‌های شغلی </a>
+    <a href=""> تماس با ما</a>
+    <a href=""> <img src="./images/serachb.png"  alt="" style="width:22px; margin-top:22px ;" ></a>
+    </ul>
+    </div>
+   
+
+</header>
+
+<div class="my-video">
+<video src="sample.webm" type="video/webm" style="object-fit: cover; background-size: cover; opacity: 1; width: 1520px;  height: 700px; display: block;" class="video" loop="loop" preload="auto" autoplay  >
+</video>
+</div>
+<div class="video-text"  >
+  <h1 class="h1-1"  style="z-index: 1; font-family: iranyekan; height: auto; width: auto; color: rgb(255, 255, 255); text-decoration: none;   transform-origin: 50% 50% 0px; opacity: 1; transform: translate(0px); visibility: visible; " data-idcheck="true" data-stylerecorder="true" data-initialised="true">نوآوری در فناوری<br> هوشمندی در کسب‌وکار 
+  </h1>
+   <h1 class="h1-2" style="width: auto;color: rgb(255, 255, 255);text-decoration: none;white-space: nowrap;text-align: center; transform-origin: 50% 50% 0px; opacity: 1; visibility: visible; margin-top: -40px;"> 
+   هلدینگ دانش بنیان گرین وب، صادرکننده برتر خدمات فناوری اطلاعات به اروپا </h1>
+  </div>
+  
+  
+  <div class = "box">
+    
+    <div class="img1">
+    <img src="https://greenweb.ir/wp-content/uploads/2021/03/chapiroos-Logo.png"  alt="چاپیروس" >
+    <img src="https://greenweb.ir/wp-content/uploads/2021/03/mana-logo.png"       alt="مانا اندیشه" >
+    <img src="https://greenweb.ir/wp-content/uploads/2021/03/iranserver-Logo.png" alt="ایران سرور" >
+    <img src="https://greenweb.ir/wp-content/uploads/2021/03/Grrenweb-Cloud-Logo.png" alt="گرین وب کلود" >
+    <img src="https://greenweb.ir/wp-content/uploads/2021/03/greenTech-Logo.png" alt="گرین تک" >
+    <img src="https://greenweb.ir/wp-content/uploads/2021/03/Poshtiban-Logo.png" alt="پشتیبان" >
+    <img src="https://greenweb.ir/wp-content/uploads/2021/03/faracloud-Logo.png" alt="فراکلود">
+  </div> 
+  
+
+    <div class="spans">
+     <span class="span3"> ما در هلدینگ دانش بنیان گرین وب بر روی راهکارهای هوشمندسازی کسب و کار و ورود کسب و کارهای سنتی به دنیای دیجیتال تمرکز کرده‌ایم </span> 
+                                                          <br>                                                     
+      <span class="span4"> و در تلاشیم تا با تغییراتی کوچک به واسطه فناوری اطلاعات، نتایجی بزرگ  را رقم بزنیم. ما لحظه به لحظه در کنار مشتریانمان هستیم  </span>         
+      </div>
+    
+      <div class="button">
+    <a href=""class="tag1"><span class="span5" > بیشتر بدانید </span> </a>
+      </div>
+     </div>
+     
+     <div class="center-images">
+
+     <div >
+			<p style="text-align: center;"><img class="aligncenter wp-image-1602 size-full lazyDone" src="https://www.greenweb.ir/inc/uploads/2021/03/hosting-icon.png" data-src="" alt="گرین وب، خدمات زیرساخت هاستینگ" width="101" height="98"><br> 
+      <span style="font-size: 22px; color: #79a342;">خدمات زیرساخت هاستینگ</span><span style="color: #58595b;"><br>
+      <span style="color: #aaaaaa; font-size: 14px;"><strong>WEB HOSTING INFRASTRUCTURE</strong></span></span></p>
+     <p style="text-align: center;"><span style="color: #aaaaaa;">سرویس‌های مطمئن و با کیفیت میزبانی وب در سطح<br>
+استانداردهای جهانی <br> <br> <a href="" class="tag2"> <span class="span6">  اطلاعات بیشتر  </span></a></span></p> <br>
+
+		</div>
+    <div >
+			<p style="text-align: center;"><img class="aligncenter wp-image-1600 size-full lazyDone" src="https://www.greenweb.ir/inc/uploads/2021/03/startup-icon.png" data-src="" alt="گرین وب، حمایت از استارت اپ ها" width="101" height="98"><br><span style="font-size: 22px; color: #79a342;">حمایت از استارت اپ ها</span><span style="color: #58595b;"><br>
+<span style="color: #aaaaaa; font-size: 14px;"><strong>ACCELERATOR &amp; STARTUPS SUPPORT</strong></span></span></p>
+<p style="text-align: center;"><span style="color: #aaaaaa;">شتابدهی آنلاین به استارتاپ‌های نوآور با ارائه‌ی<br>
+خدماتی منحصر به فرد</span></p>
+
+		</div>
+
+    <div >
+			<p style="text-align: center;"><img class="aligncenter wp-image-1892 size-full lazyDone" src="https://www.greenweb.ir/inc/uploads/2021/03/Dt-icon2.png" data-src="" alt="گرین وب، تحول دیجیتال کسب وکارها" width="101" height="98"><br><span style="font-size: 22px; color: #79a342;">تحول دیجیتال کسب و کارها</span><span style="color: #58595b;"><br>
+<span style="color: #aaaaaa; font-size: 14px;"><strong>DIGITAL TRANSFORMATION FOR BUSINESS</strong></span></span></p>
+<p style="text-align: center;"><span style="color: #aaaaaa;">ادغام فناوری‌های دیجیتال در جهت هوشمندسازی<br>
+کسب و کارها</span></p>
+
+		</div>
+
+    <div >
+			<p style="text-align: center;"><img class="aligncenter wp-image-1609 size-full lazyDone" src="https://www.greenweb.ir/inc/uploads/2021/03/Blockchain-icon.png" data-src="" alt="گرین وب، سرویس های بلاکچین" width="101" height="98"><br><span style="font-size: 22px; color: #79a342;">سرویس های بلاکچین</span><span style="color: #58595b;"><br>
+<span style="color: #aaaaaa; font-size: 14px;"><strong>BLOCKCHAIN SERVICES</strong></span></span></p>
+<p style="text-align: center;"><span style="color: #aaaaaa;">راه حل‌های کارآمد در ساختار و معماری اینترنت با تمرکز بر <br> امنیت و کارایی سرویس ها</span></p>
+
+		</div>
+
+    <div >
+			<p style="text-align: center;"><img class="aligncenter wp-image-1953 size-full lazyDone" src="https://www.greenweb.ir/inc/uploads/2021/03/Dt-icon.png" data-src="" alt="گرین وب، پردازش تصویر و هوش مصنوعی" width="101" height="98"><br><span style="font-size: 22px; color: #79a342;">پردازش تصویر و هوش مصنوعی</span><span style="color: #58595b;"><br>
+<span style="color: #aaaaaa; font-size: 14px;"><strong>IMAGE PROCESSING &amp; AI</strong></span></span></p>
+<p style="text-align: center;"><span style="color: #aaaaaa;">طراحی و ساخت سیستم های مبتنی بر هوش مصنوعی<br>و بینایی ماشین</span></p>
+		</div>
+
+    <div >
+			<p style="text-align: center;"><img class="aligncenter wp-image-1607 size-full lazyDone" src="https://www.greenweb.ir/inc/uploads/2021/03/cloud-services-icon.png" data-src="" alt="گرین وب، سرویس های ابری" width="101" height="98"><br><span style="font-size: 22px; color: #79a342;">سرویس های ابری</span><span style="color: #58595b;"><br>
+<span style="color: #aaaaaa; font-size: 14px;"><strong>CLOUD SERVICES</strong></span></span></p>
+<p style="text-align: center;"><span style="color: #aaaaaa;">طیف وسیعی از نرم افزارها و سرویس های کارآمد<br>
+بر بستر ابری</span></p>
+
+		</div>
+  </div>
+  
+  
+  <div class="img-background">
+  <img src="https://www.greenweb.ir/inc/uploads/2021/03/moshvereh.jpg?id=1693" alt="" max-width="3000px">
+  </div>
+    <div class="content-background">
+    <div class="te">
+    <div class="cz_title_shape shape_square cz_shape_1"> 
+    </div>
+    </div>
+    <div class="p-group"  style="position:relative ; bottom:140px">
+
+    <span style="text-align:center ; color:#FFFFFFD9 ; position: relative; bottom: 45px; ">
+    <p style="font-size: 28px; margin-top: -20px;">  ارائه خدمات مشاوره </p>
+    <p class="last-p" style="font-size: 56px; margin-top: -40px; margin-left: 30px; "> در حوزه تحویل دیجیتال</p>
+    <p class="third-p"  style="font-size: 20px; margin-top: -45px; "> ،شما می‌توانید روی خدمات مشاوره ای گرین وب حساب کنید، ما می‌توانیم با توجه به بودجه و اهداف سازمان شما<br>
+      نزدیک‌ترین مسیر را برای هوشمندسازی کسب و کار شما تدوین نماییم </p> </span>
+      
+    <div style="display: flex; justify-content: center;">
+      <a href="" class="tag1" ><span  > درخواست مشاوره  </span> </a>
+    </div>  
+    </div>
+    </div>
+
+  <div class="form">
+  <div class="form1"   >
+   <span class="span7" style="color: #ffffff;" >     برخی از </span> <br>
+    <span class="span7" style="color: #ffffff; font-size: 44px; line-height: 1.2;" > مشتریان <br> هلدینگ <br> گرین‌وب</span>
+  </div>
+
+  <div class="margin-images">
+    <div class="mimages"><img src="https://greenweb.ir/wp-content/uploads/2021/03/logo21-253x191.png" data-src="" alt="کانون ایران نوین" class="margin-i"></div>
+    <div class="mimages"><img src="https://greenweb.ir/wp-content/uploads/2021/03/logo20-253x191.png" data-src="" alt="دانشگاه علم وصنعت ایران" class="margin-i" naptha_cursor="text"></div>
+    <div class="mimages"><img src="https://greenweb.ir/wp-content/uploads/2021/03/go19-253x191.png" data-src="" alt="سازمان نظام پزشکی" class="margin-i"></div>  
+    <div class="mimages"><img src="https://greenweb.ir/wp-content/uploads/2021/03/go19-253x191.png" data-src="" alt="سازمان نظام پزشکی" class="margin-i" naptha_cursor="region"></div>
+  </div>
+
+  </div>
+    
+      <div class="content-group">
+      <div class="content-form">    ما به جایی وصل نیستیم ما بهم وصلیم  </div>
+      <div class="content-i" ><img class="content-img" src="./images/mehdimohammadi.png" alt=""  ></div> 
+      </div>
+
+      <div  class="footer1">
+
+      </div>
+
+      <div class="footer1-logo">
+      
+      <div class="small-logo"> <img src="./images/small_logo-4.png" alt="" width="170px" >  </div>
+
+      <div class="footer-span">  <strong >دفتر تهران:
+      </strong > میدان ولیعصر، خیابان شقایق، مرکز نوآوری و توسعه <br>  کسب و کارهای داده محور، طبقه چهارم <br>تلفن: 88853913 021<br>
+      <strong >دفتر مشهد:
+      </strong> بلوار خیام، بین چهارراه خیام و ارشاد، پارک فاوا، مرکز توسعه واحدهای  فناور، طبقه دهم
+      <br >تلفن: 37638100 051
+      </div>
+      <div class="footer1-logo1"> <img src="./images/logo.png" alt=""></div>
+      <div class="footer1-logo2" >
+      <img src="./images/bg5.jpg" alt="" width="579px" height="380px"  >
+      </div>
+      <div class="footer-span1"><a href="" style="text-decoration-color: none; color: #FFFFFFD9;"><span> Info@GreenWeb.ir  </span> <img src="./images/pixlr-bg-resultb.png" alt="" width="25px" style="margin-left: 10px; position: relative; top: 2px;">    </a>   </div>
+      </div>
+
+    <div class="footer2">
+    <div class="header_line_3" > &nbsp;    </div>
+    <span class="span8">  فرصت های شغلی</span>
+    <div class="header_line_3" > &nbsp;    </div>
+    <span class="span8">.تمامی حقوق مادی و معنوی برای هلدینگ دانش بیان گرین وب محفوظ است</span>
+    </div>
+
+</body>
+</html>
